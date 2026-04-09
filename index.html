@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paulo de Tarso Valois Leite | Portfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: "#0f172a",
+            secondary: "#1e293b",
+            accent: "#2563eb"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-slate-950 text-slate-200">
+
+<!-- NAVBAR -->
+<header class="fixed w-full bg-slate-900/90 backdrop-blur border-b border-slate-800 z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="font-bold text-lg">Paulo Valois</h1>
+
+    <nav class="hidden md:flex space-x-8">
+      <a href="#sobre" class="hover:text-blue-400">Sobre</a>
+      <a href="#habilidades" class="hover:text-blue-400">Habilidades</a>
+      <a href="#projetos" class="hover:text-blue-400">Projetos</a>
+      <a href="#certificacoes" class="hover:text-blue-400">Certificações</a>
+      <a href="#contato" class="hover:text-blue-400">Contato</a>
+    </nav>
+
+    <div class="hidden md:flex items-center gap-4">
+      <a href="#" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm">Baixar CV</a>
+    </div>
+
+    <button id="menuBtn" class="md:hidden">
+      ☰
+    </button>
+  </div>
+
+  <div id="mobileMenu" class="hidden md:hidden px-6 pb-4">
+    <a href="#sobre" class="block py-2">Sobre</a>
+    <a href="#habilidades" class="block py-2">Habilidades</a>
+    <a href="#projetos" class="block py-2">Projetos</a>
+    <a href="#certificacoes" class="block py-2">Certificações</a>
+    <a href="#contato" class="block py-2">Contato</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="pt-32 pb-20 max-w-4xl mx-auto px-6 text-center">
+  <div>
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">
+      Olá, eu sou Paulo de Tarso Valois Leite
+    </h2>
+
+    <p class="text-slate-400 mb-6">
+      Analista de Requisitos e Negócios | Especialista em Metodologias Ágeis (Scrum/Kanban)
+    </p>
+
+    <div class="flex gap-4 justify-center">
+      <a href="#projetos" class="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">
+        Ver Projetos
+      </a>
+
+      <a href="#contato" class="border border-slate-600 px-6 py-3 rounded-lg hover:bg-slate-800">
+        Fale comigo
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="py-20 bg-slate-900">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6">Sobre Mim</h2>
+
+    <p class="text-slate-400 leading-relaxed">
+      Com mais de 35 anos de experiência em TI, atuo com foco em levantamento, análise, documentação e validação de requisitos, sempre alinhando soluções técnicas aos objetivos de negócio. Especialista em histórias de usuário INVEST/BDD, facilitação de workshops, prototipação e gestão de backlog em ambientes ágeis e tradicionais. Já entreguei valor em projetos de grande porte para órgãos públicos e empresas privadas nos setores de saúde, justiça, meio ambiente, fazenda, petróleo e gás. Ferramentas principais: Azure Boards, JIRA, Axure, Pencil, Draw.io, PostgreSQL, Oracle, SQL Server. Certificações: Scrum Master Professional Certificate (SMPC) | Certified Scrum Product Owner (CSPO)
+    </p>
+  </div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="habilidades" class="py-20">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10">Habilidades</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-slate-900 p-6 rounded-xl">📊 Elicitação e Validação de Requisitos</div>
+      <div class="bg-slate-900 p-6 rounded-xl">🧩 Histórias de Usuário + BDD</div>
+      <div class="bg-slate-900 p-6 rounded-xl">📄 Documento de Visão do Produto</div>
+      <div class="bg-slate-900 p-6 rounded-xl">🎨 Prototipação (Axure / Pencil)</div>
+      <div class="bg-slate-900 p-6 rounded-xl">🔎 Modelagem de Casos de Uso</div>
+      <div class="bg-slate-900 p-6 rounded-xl">📚 Gestão de Product Backlog</div>
+      <div class="bg-slate-900 p-6 rounded-xl">⚡ Scrum + Kanban</div>
+      <div class="bg-slate-900 p-6 rounded-xl">🔗 Regras de Negócio e Rastreabilidade</div>
+      <div class="bg-slate-900 p-6 rounded-xl">🛠 Azure Boards, JIRA, MS Project</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos" class="py-20 bg-slate-900">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10">Projetos em Destaque</h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div class="bg-slate-800 p-6 rounded-xl">
+        <h3 class="font-bold text-lg">RSTARTUP – PROCERGS</h3>
+        <p class="text-sm text-slate-400">Fev/2023 – Mar/2024</p>
+        <p class="text-slate-400 mt-3">Sistema de apoio a startups com gestão de requisitos ágeis.</p>
+        <button onclick="openModal('modal1')" class="mt-4 text-blue-400">
+          Ver detalhes
+        </button>
+      </div>
+
+      <div class="bg-slate-800 p-6 rounded-xl">
+        <h3 class="font-bold text-lg">GCRIM e SIAPEN</h3>
+        <p class="text-sm text-slate-400">Fev/2022 – Fev/2023</p>
+        <p class="text-slate-400 mt-3">Sistemas para Ministério da Justiça.</p>
+        <button onclick="openModal('modal2')" class="mt-4 text-blue-400">
+          Ver detalhes
+        </button>
+      </div>
+
+      <div class="bg-slate-800 p-6 rounded-xl">
+        <h3 class="font-bold text-lg">Licenciamento IGAM</h3>
+        <p class="text-sm text-slate-400">Fev/2021 – Fev/2022</p>
+        <p class="text-slate-400 mt-3">Sistema ambiental.</p>
+        <button onclick="openModal('modal3')" class="mt-4 text-blue-400">
+          Ver detalhes
+        </button>
+      </div>
+
+      <div class="bg-slate-800 p-6 rounded-xl">
+        <h3 class="font-bold text-lg">AGHUSe – SESAB</h3>
+        <p class="text-sm text-slate-400">Nov/2018 – Nov/2019</p>
+        <p class="text-slate-400 mt-3">Sistema hospitalar.</p>
+        <button onclick="openModal('modal4')" class="mt-4 text-blue-400">
+          Ver detalhes
+        </button>
+      </div>
+
+      <div class="bg-slate-800 p-6 rounded-xl">
+        <h3 class="font-bold text-lg">Cadastro Empresas – SEFAZ</h3>
+        <p class="text-sm text-slate-400">Jan/2017 – Mai/2017</p>
+        <p class="text-slate-400 mt-3">Sistema fiscal.</p>
+        <button onclick="openModal('modal5')" class="mt-4 text-blue-400">
+          Ver detalhes
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICAÇÕES -->
+<section id="certificacoes" class="py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6">Certificações</h2>
+
+    <ul class="space-y-3 text-slate-400">
+      <li>Scrum Master Professional Certificate (SMPC)</li>
+      <li>Certified Scrum Product Owner (CSPO)</li>
+      <li>Scrum Fundamentals Certified</li>
+      <li>Agile Requirements Foundation</li>
+      <li>Business Analysis Fundamentals</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="py-20 bg-slate-900">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6">Contato</h2>
+
+    <p class="text-slate-400 mb-8">
+      Estou disponível para novas oportunidades como Analista de Requisitos, Business Analyst ou Product Owner.
+    </p>
+
+    <div class="mt-8">
+      <p>Email: ptvalois@gmail.com</p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/ptvalois" class="text-blue-400">
+          linkedin.com/in/ptvalois
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center py-8 border-t border-slate-800">
+  © 2026 Paulo de Tarso Valois Leite | GitHub Pages
+</footer>
+
+<script>
+document.getElementById("menuBtn").addEventListener("click", () => {
+  document.getElementById("mobileMenu").classList.toggle("hidden")
+})
+
+// animação scroll
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("opacity-100","translate-y-0")
+    }
+  })
+})
+
+document.querySelectorAll("section").forEach(sec => {
+  sec.classList.add("opacity-0","translate-y-6","transition","duration-700")
+  observer.observe(sec)
+})
+</script>
+
+</body>
+</html>
